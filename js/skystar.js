@@ -114,7 +114,7 @@ let textone = document.querySelector('.textone').querySelector('h1');
       setTimeout(function(){
         textone.innerHTML = '春蚕到死丝方尽';
         texttwo.innerHTML = '蜡炬成灰泪始干';
-        textthree.innerHTML = '肯德基疯狂星期四，谁请我吃？';
+        textthree.innerHTML = '肯德基下周疯狂星期四，谁请我吃？';
       },112500)
 
 
