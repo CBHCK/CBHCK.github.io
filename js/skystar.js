@@ -102,7 +102,7 @@ let textone = document.querySelector('.textone').querySelector('h1');
       let textthree = document.querySelector('.textthree').querySelector('h1');
 
       setTimeout(function(){
-        textone.innerHTML = '今晚，整片星空将为你一人闪烁';
+        textone.innerHTML = '总有一颗星星为你而亮';
           textone.style.color = '#E8F9FD';
           textone.style.fontFamily = '楷体'
           texttwo.style.color = '#E8F9FD';
@@ -112,9 +112,9 @@ let textone = document.querySelector('.textone').querySelector('h1');
           texttwo.innerHTML = '';
       },28000)
       setTimeout(function(){
-        textone.innerHTML = '从前有个沙雕';
-        texttwo.innerHTML = '大家都以为她是沙雕';
-        textthree.innerHTML = '其实她就是你哈哈哈哈哈哈';
+        textone.innerHTML = '春蚕到死丝方尽';
+        texttwo.innerHTML = '蜡炬成灰泪始干';
+        textthree.innerHTML = '肯德基疯狂星期四，谁请我吃？';
       },112500)
 
 
