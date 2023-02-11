@@ -47,7 +47,7 @@ function init(){
         word.classList.add('word');
         word.style.color = '#BAABDA';
         word.style.fontFamily = '楷体';
-        word.style.fontSize = '4px'
+        word.style.fontSize = '6px'
         word_box.classList.add('word-box');
         word_box.style.setProperty("--margin-top",randomNum(-40,20)+'vh');
         word_box.style.setProperty("--margin-left",randomNum(6,35)+'vw');
