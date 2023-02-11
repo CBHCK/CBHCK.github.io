@@ -1,14 +1,5 @@
 // poem
 var words=[
-   'destiny',
-    'destiny',
-    'destiny',
-    'destiny',
-    'destiny',
-    'destiny',
-    'destiny',
-    'destiny',
-   'destiny',
     'destiny',
     'destiny',
     'destiny',
@@ -56,7 +47,7 @@ function init(){
         word.classList.add('word');
         word.style.color = '#BAABDA';
         word.style.fontFamily = '楷体';
-        word.style.fontSize = '20px'
+        word.style.fontSize = '4px'
         word_box.classList.add('word-box');
         word_box.style.setProperty("--margin-top",randomNum(-40,20)+'vh');
         word_box.style.setProperty("--margin-left",randomNum(6,35)+'vw');
@@ -79,6 +70,7 @@ let textone = document.querySelector('.textone').querySelector('h1');
         textone.innerHTML = '总有一颗星星为你而亮';
           textone.style.color = '#E8F9FD';
           textone.style.fontFamily = '楷体'
+         textone.style.fontSize = '6px'
           texttwo.style.color = '#E8F9FD';
           texttwo.style.fontFamily = '楷体'
           textthree.style.color = '#E8F9FD';
@@ -87,8 +79,11 @@ let textone = document.querySelector('.textone').querySelector('h1');
       },28000)
       setTimeout(function(){
         textone.innerHTML = '春蚕到死丝方尽';
+         textone.style.fontSize = '6px'
         texttwo.innerHTML = '蜡炬成灰泪始干';
+         texttwo.style.fontSize = '6px'
         textthree.innerHTML = '肯德基下周疯狂星期四，谁请我吃？';
+          textthree.style.fontSize = '6px'
       },112500)
 
 
